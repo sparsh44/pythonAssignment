@@ -18,7 +18,7 @@ elif year%4==0 and year%100!=0 :
 else :
     a=2
     #not leap year
-if day<=31 and month<=12:
+if day<=31 and month<=12 and year<=2025 and year>=1800:
     # 31 days months are 1 3 5 7 8 10 12
     if  month==1 or month==3 or month==5 or month==7 or month==8 or month==10 or month==12:
         if day==31:

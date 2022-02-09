@@ -17,7 +17,6 @@ while(n=="y"):
 print("The required dictionary--",student_info)
 print("The list will be used in further parts--")
 print("The required list--",alistsid)
-print("Done!")
 
 #(b)
 #to sort our dictionary based to names we will iterate dict.items() twice each
@@ -53,7 +52,6 @@ for (k,v) in sorted_dict.items():
     required_dict_name[v]=k
 print("This is the dictionary sorted on the basis of name-")
 print(required_dict_name)
-print("Done!")
 
 #(c)
 #sort the dictionary on the basis of sid
@@ -67,7 +65,6 @@ print("now the list is sorted-")
 print(alistsid)
 sorted_student_info_sid=dict(alistsid)
 print("sorted dictionary based on sid-",sorted_student_info_sid)
-print("Done!")
 
 #(d)
 #search a student's name by his/her sid
@@ -76,4 +73,3 @@ print("-----------------(d)-----------------")
 entered_sid=int(input("Please enter one of the sids you entered before-"))
 print("The name of the student with the entered sid is-")    
 print(student_info[entered_sid])
-print("Done!")
