@@ -106,11 +106,16 @@ else:
 
 #Ques 3
 
-list1=[3,9,10]
+list1=[]
+n=int(input("ENTER NUMBER OF ELEMENTS YOU WANT : "))
+for i in range(0,n):
+   a=int(input())
+   list1.append(a)
 list2=[]
-for i in list1:
-   list2.append((i,i**2))
+for x in list1:
+   list2.append((x,x**2))
 print(list2)
+
 
 #Ques 4
 

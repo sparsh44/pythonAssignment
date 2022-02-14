@@ -65,7 +65,13 @@ This is not a valid date
 
 #Ques 3
 
-[(3, 9), (9, 81), (10, 100)]
+ENTER NUMBER OF ELEMENTS YOU WANT : 5
+4
+5
+6
+7
+8
+[(4, 16), (5, 25), (6, 36), (7, 49), (8, 64)]
 
 #Ques 4
 
